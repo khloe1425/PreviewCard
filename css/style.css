@@ -138,4 +138,57 @@ svg {
   cursor: pointer;
   color: hsl(178, 100%, 50%);
 }
-/* START SECTION */
+/* SECTION */
+
+/* REPONSIVE */
+@media only screen and (max-width: 992px) {
+  html,
+  body{ 
+    text-align: center;
+    height: 100%;
+    width:auto!important;
+    background-color: hsl(217, 54%, 11%);
+  }
+  .section{
+    width: 100%;
+    text-align: left;
+  }
+  .section .container{
+    margin: 0;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html,
+  body{ 
+    text-align: center;
+    height: 100%;
+    width:auto!important;
+    background-color: hsl(217, 54%, 11%);
+  }
+  .section{
+    width: 100%;
+    text-align: left;
+  }
+  .section .container{
+    width: 50%;
+  }
+}
+ /* iphone 6, 6s, 7, 8 */
+ @media only screen and (max-width: 576px) {
+    html,
+    body{
+      text-align: center;
+      height: 100%;
+      width: auto !important;
+      background-color: hsl(217, 54%, 11%);
+    }
+    .section .container{
+      width: 100%;
+      align-items: center;
+    }
+}
+
+        
